@@ -13,3 +13,11 @@ jobs:
     steps:
       - name: Di Hola
         run: echo "Francisco Rodriguez"
+
+  Tarea2:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: FechaSistema
+        run: date
+  
